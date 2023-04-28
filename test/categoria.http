@@ -1,0 +1,14 @@
+GET http://localhost:3000
+
+###
+GET http://localhost:3000/melancia
+
+### Requisição passando 
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+    "nome" : "Melancia",
+    "preco" : 10
+}
+

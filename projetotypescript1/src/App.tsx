@@ -1,5 +1,5 @@
 import React from 'react';
-import Soma from './components/Soma';
+import Soma from './components/soma';
 
 function App() {
   return (

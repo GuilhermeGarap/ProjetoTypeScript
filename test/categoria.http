@@ -1,10 +1,11 @@
-GET http://localhost:3000
+### Listar
+GET http://localhost:3001
 
 ###
-GET http://localhost:3000/melancia
+GET http://localhost:3001/melancia
 
-### Requisição passando 
-POST http://localhost:3000
+### Cadastrar Produto
+POST http://localhost:3001
 Content-Type: application/json
 
 {

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import axios from "axios";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 function ListarProdutos() {
 
@@ -34,9 +35,12 @@ function ListarProdutos() {
                 <tbody>
                     {produtos.map((produto:any) =>(
                         <tr>
-                            <td></td>
+                            <td>{produto.id}</td>
                             <td>{produto.nome}</td>
                             <td>{produto.preco}</td>
+                            <td>
+                                <Link to={`/detalhar/${produto.nome}`}>Detalhes</Link>
+                            </td>
                         </tr>
                     ))}
 

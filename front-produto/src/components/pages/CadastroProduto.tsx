@@ -1,6 +1,6 @@
 import axios from "axios";
 import { useState } from "react";
-import { Produto } from "../models/produto.model";
+import { Produto } from "../../models/produto.model";
 
 function CadastrarProduto() {
   const [nome, setNome] = useState("");
